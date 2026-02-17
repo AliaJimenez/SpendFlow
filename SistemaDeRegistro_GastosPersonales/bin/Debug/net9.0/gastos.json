@@ -1,0 +1,142 @@
+[
+  {
+    "Id": 1,
+    "CategoriaId": 2,
+    "Monto": 1200,
+    "Descripcion": "Pago Telefono",
+    "Fecha": "2026-02-16T21:44:00.5921031-04:00"
+  },
+  {
+    "Id": 2,
+    "CategoriaId": 4,
+    "Monto": 1135,
+    "Descripcion": "Grua",
+    "Fecha": "2026-02-16T21:45:49.6707272-04:00"
+  },
+  {
+    "Id": 3,
+    "CategoriaId": 1,
+    "Monto": 850,
+    "Descripcion": "Servicio de Internet",
+    "Fecha": "2026-02-16T22:05:10.1234567-04:00"
+  },
+  {
+    "Id": 4,
+    "CategoriaId": 3,
+    "Monto": 2500,
+    "Descripcion": "Ahorro Fondo de Retiro",
+    "Fecha": "2026-02-16T22:10:45.9876543-04:00"
+  },
+  {
+    "Id": 5,
+    "CategoriaId": 2,
+    "Monto": 3660,
+    "Descripcion": "Cuota Prestamo Personal",
+    "Fecha": "2026-02-16T22:15:30.4421890-04:00"
+  },
+  {
+    "Id": 6,
+    "CategoriaId": 4,
+    "Monto": 865,
+    "Descripcion": "Combustible",
+    "Fecha": "2026-02-16T22:20:12.1122334-04:00"
+  },
+  {
+    "Id": 7,
+    "CategoriaId": 5,
+    "Monto": 450,
+    "Descripcion": "Medicamentos Farmacia",
+    "Fecha": "2026-02-16T22:25:55.5544332-04:00"
+  },
+  {
+    "Id": 8,
+    "CategoriaId": 1,
+    "Monto": 300,
+    "Descripcion": "Pago Agua Potable",
+    "Fecha": "2026-02-16T22:30:01.0000000-04:00"
+  },
+  {
+    "Id": 9,
+    "CategoriaId": 1,
+    "Monto": 1500,
+    "Descripcion": "Pago de Electricidad",
+    "Fecha": "2026-02-01T10:15:22.1234567-04:00"
+  },
+  {
+    "Id": 10,
+    "CategoriaId": 4,
+    "Monto": 200,
+    "Descripcion": "Lavado de Vehículo",
+    "Fecha": "2026-02-03T16:40:10.5543210-04:00"
+  },
+  {
+    "Id": 11,
+    "CategoriaId": 2,
+    "Monto": 1200,
+    "Descripcion": "Abono Tarjeta de Crédito",
+    "Fecha": "2026-02-05T09:00:00.0000000-04:00"
+  },
+  {
+    "Id": 12,
+    "CategoriaId": 5,
+    "Monto": 2100,
+    "Descripcion": "Reparación Tubería Baño",
+    "Fecha": "2026-02-07T14:22:33.8877665-04:00"
+  },
+  {
+    "Id": 13,
+    "CategoriaId": 3,
+    "Monto": 1000,
+    "Descripcion": "Transferencia Fondo Inversión",
+    "Fecha": "2026-02-08T20:10:05.1122334-04:00"
+  },
+  {
+    "Id": 14,
+    "CategoriaId": 1,
+    "Monto": 600,
+    "Descripcion": "Suscripción Netflix/Spotify",
+    "Fecha": "2026-02-10T08:30:15.9988776-04:00"
+  },
+  {
+    "Id": 15,
+    "CategoriaId": 4,
+    "Monto": 950,
+    "Descripcion": "Cambio de Aceite",
+    "Fecha": "2026-02-12T11:45:00.0000000-04:00"
+  },
+  {
+    "Id": 16,
+    "CategoriaId": 2,
+    "Monto": 500,
+    "Descripcion": "Pago préstamo amigos",
+    "Fecha": "2026-02-13T18:20:44.3344556-04:00"
+  },
+  {
+    "Id": 17,
+    "CategoriaId": 5,
+    "Monto": 650,
+    "Descripcion": "Consulta Médica General",
+    "Fecha": "2026-02-14T10:05:12.7766554-04:00"
+  },
+  {
+    "Id": 18,
+    "CategoriaId": 1,
+    "Monto": 400,
+    "Descripcion": "Mantenimiento Residencial",
+    "Fecha": "2026-02-15T15:30:00.0000000-04:00"
+  },
+  {
+    "Id": 19,
+    "CategoriaId": 3,
+    "Monto": 1500,
+    "Descripcion": "Ahorro para Viaje",
+    "Fecha": "2026-02-16T12:00:00.0000000-04:00"
+  },
+  {
+    "Id": 20,
+    "CategoriaId": 4,
+    "Monto": 350,
+    "Descripcion": "Parqueo Mensual",
+    "Fecha": "2026-02-16T19:25:30.1234567-04:00"
+  }
+]
