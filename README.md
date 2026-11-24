@@ -1,39 +1,53 @@
-# 💸 SpendFlow
+<h1 align="center">💸 SpendFlow</h1>
 
-> Un gestor de finanzas y gastos personales interactivo desde la consola, diseñado para ser rápido, robusto y modular. Construido en **C# (.NET 9)** bajo una arquitectura sólida de desarrollo[cite: 1].
+<p align="center">
+  <b>Personal expense manager for the console, built with a clean N-tier architecture.</b><br/>
+  <i>Gestor de gastos personales para consola, construido con arquitectura en N capas.</i>
+</p>
 
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![.NET 9](https://img.shields.io/badge/.NET%209.0-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
-
----
-
-## 🛠️ Arquitectura del Proyecto
-
-Para garantizar la mantenibilidad y escalabilidad del código, la aplicación está estructurada utilizando una **Arquitectura en N-Capas (N-Tier)**:
-
-*   **`Presentacion` (UI):** Capa interactiva de consola para la comunicación con el usuario.
-*   **`Negocio` (BLL):** Lógica que gestiona las operaciones financieras, validaciones de montos y generación de resúmenes (`GestorFinanzas.cs`).
-*   **`Datos` (DAL):** Responsable de la persistencia de datos persistiendo la información de categorías y gastos en archivos JSON locales (`RepositorioJson.cs`).
-*   **`Entidades` (Entities):** Modelos puros que estructuran los datos del negocio (`Gasto.cs`, `Categoria.cs`).
+<p align="center">
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#"/>
+  <img src="https://img.shields.io/badge/.NET-9-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET 9"/>
+  <img src="https://img.shields.io/badge/Storage-JSON-000000?style=for-the-badge&logo=json&logoColor=white" alt="JSON"/>
+</p>
 
 ---
 
-## ✨ Características Principales
+## ✨ Features · Funcionalidades
 
-*   ➕ **Registro de Gastos:** Permite ingresar montos, descripciones, fechas y vincularlos a categorías específicas.
-*   🗂️ **Categorización Dinámica:** Gestión y organización de tus transacciones por etiquetas.
-*   📂 **Persistencia JSON:** Los datos no se pierden al cerrar la aplicación; se guardan automáticamente en formato JSON local.
-*   📊 **Resúmenes Mensuales:** Muestra reportes y un desglose de en qué se está gastando el dinero.
+| EN | ES |
+|---|---|
+| Register expenses with amount, description, date and category | Registro de gastos con monto, descripción, fecha y categoría |
+| Categories with a monthly budget and an **over-budget warning** | Categorías con presupuesto mensual y **alerta al excederlo** |
+| Reports and spending summary by category | Reportes y resumen de gastos por categoría |
+| Export a monthly summary to JSON | Exportación del resumen mensual a JSON |
+| Data persisted automatically in local JSON files | Persistencia automática en archivos JSON locales |
 
----
+## 🏗️ Architecture · Arquitectura
 
-## 🚀 Cómo Ejecutar el Proyecto
+```
+SpendFlow.sln
+├─ Presentacion  →  Console UI (entry point)              · Interfaz de consola
+├─ Negocio       →  GestorFinanzas: rules, budgets, reports · Reglas de negocio
+├─ Datos         →  RepositorioJson<T>: generic JSON store  · Acceso a datos
+└─ Entidades     →  Gasto, Categoria                        · Modelos
+```
 
-### Requisitos previos
-*   Tener instalado el **SDK de .NET 9**.
+Each layer only depends on the layers below it: `Presentacion → Negocio → Datos → Entidades`.
 
-### Clonar y arrancar
-1. **Clona el repositorio:**
-   ```bash
-   git clone https://github.com/AliaJimenez/SpendFlow.git
+## 🚀 Run · Ejecutar
+
+**Requirements · Requisitos:** .NET 9 SDK.
+
+```bash
+git clone https://github.com/AliaJimenez/SpendFlow.git
+cd SpendFlow/SistemaDeRegistro_GastosPersonales
+dotnet run --project SistemaDeRegistroGastosPersonales.Presentacion
+```
+
+> Start by creating a category (option **3**) — expenses must belong to one.
+> *Primero crea una categoría (opción **3**): todo gasto debe pertenecer a una.*
+
+## 👩‍💻 Author · Autora
+
+**Aliandy Jimenez** — [@AliaJimenez](https://github.com/AliaJimenez)
